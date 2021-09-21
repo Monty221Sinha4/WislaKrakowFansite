@@ -1,0 +1,38 @@
+﻿﻿﻿﻿body {
+    background-color: black;
+    font-family: 'Arial Rounded MT';
+}
+
+/* unvisited link */
+a:link {
+    color: dodgerblue;
+}
+
+/* visited link */
+a:visited {
+    color: dodgerblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: dodgerblue;
+}
+
+/* selected link */
+a:active {
+    color: dodgerblue;
+}
+
+.p1 {
+    font-family: "Arial Rounded MT";
+    color: dodgerblue;
+}
+
+.p2 {
+    font-family: 'Arial Rounded MT';
+    color: dodgerblue;
+}
+
+.p3 {
+    font-family: "Arial Rounded MT", monospace;
+}
