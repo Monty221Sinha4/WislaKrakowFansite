@@ -126,8 +126,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Gallery.css" />
     <Content Include="Content\NewStyle.css" />
+    <Content Include="Content\Theme.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Wilsa 13.jpg" />
+    <Content Include="Images\Wilsa.jpg" />
+    <Content Include="Images\Wisla 12.jpg" />
+    <Content Include="Images\Wisla 12.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -146,6 +152,7 @@
     <Content Include="Scripts\vue.min.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_LayoutPage1.cshtml" />
+    <Content Include="Views\Home\Home.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\ReactConfig.cs" />
@@ -192,9 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

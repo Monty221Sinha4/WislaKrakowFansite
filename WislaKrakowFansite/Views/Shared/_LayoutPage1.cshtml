@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.WislaKrakow</title>
+    <title>@ViewBag.Wisla</title>
     <script src="~/Scripts/bootstrap.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <script src="~/Scripts/jquery.validate.js"></script>
@@ -12,16 +12,35 @@
     <link href="~/Content/NewStyle.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-reboot.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
+    <link href="~/Content/Gallery.css" rel="stylesheet" />
+    <link href="~/Content/Theme.css" rel="stylesheet"/>
 </head>
 <body>
-    <div style="color:ghostwhite">
-        <div class="row">
-            <div class="col-md-6">
-                <h1>Wisla Krakow fan site</h1>
+    <div style="font-family:'Arial Rounded MT'">
+        <div style="background-color:black">
+
+            <img src="~/Images/Wisla 12.jpg" width="200" height="200" />
+            <div style="color:ghostwhite">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Wisla Krakow fan site</h1>
+                    </div>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <nav>
+                        @Html.ActionLink("Home", "Home", "Home")
+                        @Html.ActionLink("History", "History", "Home")
+                        @Html.ActionLink("Gallery", "Gallery", "Home")
+                    </nav>
+                </div>
+            </div>
+            <div>
+            </div>
+
         </div>
-    </div>
-    <div>
+
         @RenderBody()
     </div>
 </body>
