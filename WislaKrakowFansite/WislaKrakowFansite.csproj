@@ -130,6 +130,7 @@
     <Content Include="Content\NewStyle.css" />
     <Content Include="Content\Theme.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Club 1.jpg" />
     <Content Include="Images\Wilsa 13.jpg" />
     <Content Include="Images\Wilsa.jpg" />
     <Content Include="Images\Wisla 12.jpg" />
@@ -190,6 +191,7 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.6.0.min.map" />
+    <Content Include="Views\Home\History.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

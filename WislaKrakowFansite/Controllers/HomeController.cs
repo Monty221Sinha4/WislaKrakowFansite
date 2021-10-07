@@ -21,5 +21,9 @@ namespace WislaKrakowFansite.Controllers
         {
             return View();
         }
+        public ActionResult Videos()
+        {
+            return View();
+        }
     }
 }
